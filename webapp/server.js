@@ -109,7 +109,7 @@ if (config.SERVICE_UNAVAILABLE) {
   app.use(
     '/assets',
     express.static(
-      path.join(__dirname, './node_modules/govuk-frontend/govuk/assets')
+      path.join(__dirname, './node_modules/govuk-frontend/dist/govuk/assets')
     )
   );
 
